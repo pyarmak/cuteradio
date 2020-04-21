@@ -57,7 +57,7 @@ RUN mkdir -p $BUILD_INPUT_DIR $BUILD_OUTPUT_DIR
 
 # Clone the repositories of the meta layers into the directory $BUILD_INPUT_DIR/sources/cuteradio.
 WORKDIR $BUILD_INPUT_DIR
-RUN git clone --recurse-submodules https://github.com/bstubert/$PROJECT.git
+RUN git clone --recurse-submodules https://github.com/pyarmak/$PROJECT.git
 
 # Prepare Yocto's build environment. If TEMPLATECONF is set, the script oe-init-build-env will
 # install the customised files bblayers.conf and local.conf. This script initialises the Yocto

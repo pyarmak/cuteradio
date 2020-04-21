@@ -1,6 +1,6 @@
 [submodule "sources/meta-cuteradio"]
 	path = sources/meta-cuteradio
-	url = https://github.com/bstubert/meta-cuteradio.git
+	url = https://github.com/pyarmak/meta-cuteradio.git
 [submodule "sources/meta-openembedded"]
 	path = sources/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
